@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "DeepSeek Chat Exporter",
+  "version": "1.0",
+  "description": "Export DeepSeek chat to Markdown in one click.",
+  "host_permissions": ["https://chat.deepseek.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://chat.deepseek.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
