@@ -1,3 +1,36 @@
+---
+
+# DeepSeek Chat Exporter (Windows)
+
+Hi. I built this extension for myself to quickly export chat history from DeepSeek. It saves the entire conversation into a neat Markdown file, making it easy to read, store in notes, or feed into other AI tools.
+
+## Features
+- Exports the entire chat via API instantly, no need to scroll up and wait.
+- Saves only your prompts and the AI's final answers. Hidden model reasoning is excluded.
+- Formats the text just like the chat: with headings, lists, and code blocks.
+- Automatically adapts the interface to your browser language (Russian, English, Chinese).
+- A small support button in the corner.
+
+## Other Platforms
+- For Mac (Firefox): [deepseek-exporter-mac](https://github.com/SEQUOlA/deepseek-exporter-mac)
+- For Android: [deepseek-exporter-android](https://github.com/SEQUOlA/deepseek-exporter-android)
+
+## Installation (Edge or Chrome)
+1. Download the files (or ZIP) and unzip them into a folder.
+2. Open your browser and go to edge://extensions/ (for Edge) or chrome://extensions/ (for Chrome).
+3. Enable "Developer mode" (usually in the top or bottom right corner).
+4. Click "Load unpacked" and select the folder with the extension.
+5. Open chat.deepseek.com, refresh the page, and click "Export" in the bottom right corner.
+
+## Support and Feedback
+If this tool saved you some time, you can buy me a coffee: 
+https://www.donationalerts.com/r/myatnoyemasl0
+
+If you found this code useful or just want to say thanks, I'd be happy if you star this repository or follow my GitHub profile. It really motivates me to build new things. If you find this useful, please star this repository!<3
+
+## License
+MIT License.
+
 
 # DeepSeek Chat Exporter
 
